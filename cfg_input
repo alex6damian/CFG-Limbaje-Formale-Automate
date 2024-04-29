@@ -1,0 +1,25 @@
+#
+#
+#
+Vars:
+caine, *
+pisica
+Stop
+#
+#
+Sigma:
+a
+b
+Stop
+#
+#
+#
+Rules:
+caine, a, pisica, b
+caine, a, b
+caine, a, caine, b
+pisica, a, a, caine, b, b
+Stop
+#
+#
+#
